@@ -1,0 +1,7 @@
+﻿nPattern=5						
+maxPatternNo=5						
+Pattern.1	enabled	1	JPG	.*\.[jJ][pP][gG]		<YOUR PATH NAME>\cwebp.exe -preset picture -q 45 -m 6 -hint picture -noalpha %F -o %f.webp
+Pattern.2	enabled	2	PNG_Alpha	.*\.[pP][nN][gG]	<YOUR PATH NAME>\ImageCheckerAlphaChannel.exe %F	<YOUR PATH NAME>\cwebp.exe -preset icon -q 45 -m 6 -hint graph -alpha_method 1 -alpha_filter best -alpha_q 45 %F -o %f.webp
+Pattern.3	enabled	3	PNG_SOLID.*\.[pP][nN][gG]	!<YOUR PATH NAME>\ImageCheckerAlphaChannel.exe %F	<YOUR PATH NAME>\cwebp.exe -preset icon -q 45 -m 6 -hint graph -noalpha %F -o %f.webp
+Pattern.4	enabled	4	GIF_Static.*\.[gG][iI][fF]	!<YOUR PATH NAME>\ImageCheckerGifAnimate.exe %F	<YOUR PATH NAME>\cwebp.exe -preset icon -q 45 -m 6 -hint graph -alpha_method 1 -alpha_filter best -alpha_q 45 %F -o %f.webp
+Pattern.5	enabled	5	GIF_Animate.*\.[gG][iI][fF]	<YOUR PATH NAME>/ImageCheckerGifAnimate.exe %F	<YOUR PATH NAME>\gif2webp.exe -lossy -q 45 -m 6 %F -o %f.webp

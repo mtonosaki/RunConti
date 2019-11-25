@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunConti", "RunConti\RunConti.csproj", "{13C9FC64-D0E4-43F3-A0F2-7DB82A28648A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCheckerAlphaChannel", "ImageCheckerAlphaChannel\ImageCheckerAlphaChannel.csproj", "{0F45D272-C7FA-4F94-908D-1374E45BF74C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCheckerGifAnimate", "ImageCheckerGifAnimate\ImageCheckerGifAnimate.csproj", "{092200B3-814A-4B41-8434-F2CB1AFE8213}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		OpDemo@Azure|Any CPU = OpDemo@Azure|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13C9FC64-D0E4-43F3-A0F2-7DB82A28648A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C9FC64-D0E4-43F3-A0F2-7DB82A28648A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C9FC64-D0E4-43F3-A0F2-7DB82A28648A}.OpDemo@Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{13C9FC64-D0E4-43F3-A0F2-7DB82A28648A}.OpDemo@Azure|Any CPU.Build.0 = Release|Any CPU
+		{13C9FC64-D0E4-43F3-A0F2-7DB82A28648A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C9FC64-D0E4-43F3-A0F2-7DB82A28648A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F45D272-C7FA-4F94-908D-1374E45BF74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F45D272-C7FA-4F94-908D-1374E45BF74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F45D272-C7FA-4F94-908D-1374E45BF74C}.OpDemo@Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{0F45D272-C7FA-4F94-908D-1374E45BF74C}.OpDemo@Azure|Any CPU.Build.0 = Release|Any CPU
+		{0F45D272-C7FA-4F94-908D-1374E45BF74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F45D272-C7FA-4F94-908D-1374E45BF74C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092200B3-814A-4B41-8434-F2CB1AFE8213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092200B3-814A-4B41-8434-F2CB1AFE8213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092200B3-814A-4B41-8434-F2CB1AFE8213}.OpDemo@Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{092200B3-814A-4B41-8434-F2CB1AFE8213}.OpDemo@Azure|Any CPU.Build.0 = Release|Any CPU
+		{092200B3-814A-4B41-8434-F2CB1AFE8213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092200B3-814A-4B41-8434-F2CB1AFE8213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A6C617B-1D7D-4D3F-841A-85FFE2A4E660}
+	EndGlobalSection
+EndGlobal
